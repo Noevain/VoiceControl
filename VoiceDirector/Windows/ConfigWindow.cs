@@ -1,7 +1,6 @@
 using System;
 using System.Numerics;
 using Dalamud.Interface.Windowing;
-using ImGuiNET;
 using Dalamud.Interface.Utility.Raii;
 using Maps = Lumina.Excel.Sheets.Map;
 using ContentFinderCondition = Lumina.Excel.Sheets.ContentFinderCondition;
@@ -14,7 +13,7 @@ using Dalamud.Interface.Utility;
 using Lumina.Excel;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using Lumina.Extensions;
-
+using Dalamud.Bindings.ImGui;
 namespace VoiceDirector.Windows;
 
 public class ConfigWindow : Window, IDisposable
