@@ -109,7 +109,7 @@ public sealed class Plugin : IDalamudPlugin
         }     
     }
 
-    private void OnZoneChange(ushort e)//e is territoryType
+    private void OnZoneChange(uint e)//e is territoryType
     {
         //GetCurrentContentId does not get updated in time to get so have to find it in the sheets
         uint currContent;
